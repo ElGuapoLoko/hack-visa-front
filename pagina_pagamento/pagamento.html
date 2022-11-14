@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
@@ -14,9 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="precopixnnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet"> 
 </head>
+<body>
+    
 <header>
     <div class="bar">
         <p id="bar-text">Informações COVID</p>
@@ -68,5 +70,15 @@
         <button type="button" class="btn btn-primary btn-lg align-middle cartao" id="pagar"
             style="width:200px; background-color: #e72245;">PAGAR</button>
     </div>
-
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+</body>
 </html>
