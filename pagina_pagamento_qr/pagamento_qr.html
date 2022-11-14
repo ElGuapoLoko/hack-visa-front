@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/pagina_pagamento_qr/css/styles.css">
+    <link rel="stylesheet" href="/css_principal/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="precopixnnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="bar">
+            <p id="bar-text">Informações COVID</p>
+        </div>
+    </header>
+
+    <body>
+        <main>
+            <div class="d-flex">
+                <div class="sub-menu">
+                    <a href="/pagina_login/login.html">
+                        <img src="/pagina_login/assets/back_arrow.svg" alt="ícone de botão de retorno">
+                    </a>
+                </div>
+                <h1 class="text-center" style="text-align: center;">Pagamento</h1>
+            </div>
+            <hr class="solid">
+            <p id="total-a-pagar">Total a pagar: R$2500,00</p>
+            <div class="col-12 justify-content-around d-flex">
+                <img src="/assets/QR.png" alt="" style="width:80%; text-align:center;">
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+
+            <p id="total-a-pagar">Aguarde seu pagamento assim que ele for identificado enviaremos um e-mail de confirmação.</p>
+            <p id="total-a-pagar">Muito obrigado pela compra.</p>
+    </body> 
+
+</html>

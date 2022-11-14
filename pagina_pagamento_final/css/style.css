@@ -1,0 +1,158 @@
+body {
+    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(154deg, #00e5ba -12%, #009a9c 29%, #006999 63%, #29366d 96%, #00284c 112%);
+    }
+
+
+.bar {
+    height: 24px;
+    background-color: #444;
+}
+
+h1 {
+    
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;  font-size: 16px;
+
+    font-weight: 500;
+  
+    font-stretch: normal;
+  
+    font-style: normal;
+  
+    line-height: 1.2;
+  
+    letter-spacing: normal;
+  
+    text-align: center;
+  
+    color: #fff;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+p#bar-text {
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    text-align: center;
+}
+
+p#secundary-text {
+
+    font-family: IBMPlexSans;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d8d8d8;
+
+}
+
+p.total-a-pagar {
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+    color: #fff;
+
+
+}
+
+hr.solid {
+    border-top: 3px solid rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+hr.solid#secundary {
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+}
+
+.change-my-color {
+    filter: brightness(0) invert(1);
+}
+
+#total-a-pagar {
+    padding-bottom: 100px;
+    border-top: #fff;
+    border-bottom: #fff;
+}
+
+#tamanho-botao {
+    width: 15px;
+    height: 10px;
+}
+
+
+#valor-a-pagar {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #fff;  
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cartao{
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 44px;
+}
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+
+    font-weight: 500;
+  
+    font-stretch: normal;
+  
+    font-style: normal;
+  
+    line-height: 1.2;
+  
+    letter-spacing: normal;
+  
+    text-align: center;
+  
+    color: #fff;
+}
+
+.bottom-text-aviao{
+    margin-bottom: 90px;
+
+}
